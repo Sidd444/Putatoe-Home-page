@@ -1,0 +1,77 @@
+#head{
+  background-color: rgb(9, 110, 102);
+  color:white;
+  width:95vw;
+  padding: 3%;
+  position: fixed;
+}
+::-webkit-scrollbar{
+  display: none;
+}
+#header{
+  display: flex;
+  justify-content: space-between;
+}
+#head input{
+  height: 25px;
+  width:275px;
+  border-radius: 7px;
+  border: none;
+  margin-right: 2%;
+  margin-left: 3%;
+  margin-top: 3%;
+}
+#header>div>img{
+  height: 50px;
+  width: 50px;
+}
+#services{
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(11, 129, 119);
+  width:100.5vw;
+  overflow-y: scroll;
+  gap:3%;
+  padding-top: 2% ;
+  padding-bottom: 0;
+  color: white;
+  margin-top: 35%;
+}
+#services img{
+  height:50px;
+  width:50px;
+  background-color: white;
+  border-radius: 50px;
+  margin-left:10px ;
+  margin-right: 10px;
+}
+#services h3{
+  margin-top: -10px;
+  font-size: 15px;
+  margin-left:15px;
+}
+#card{
+  box-shadow: 0px 0px 3px 3px rgb(70, 65, 65);
+  border: none;
+  width:200px;
+  height:400px;
+  padding-left:2%;
+  border-radius: 6px;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+.sections{
+  display: flex;
+  justify-content: space-between;
+  overflow-x: scroll;
+  width: 100vw;
+  gap:3%
+}
+#foot-social{
+  display: flex;
+  justify-content: space-evenly;
+}
+#foot-social>img{
+  height:60px;
+  width:60px;
+}
